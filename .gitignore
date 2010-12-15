@@ -1,0 +1,5 @@
+/bin
+/.preprocessed
+/.settings
+/deliverables/**/*
+.project
