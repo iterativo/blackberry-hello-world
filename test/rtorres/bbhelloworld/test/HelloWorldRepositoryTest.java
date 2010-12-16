@@ -11,7 +11,7 @@ public class HelloWorldRepositoryTest
 	{
 		HelloWorldRepository repository = new HelloWorldRepository();
 		String message = repository.getMessage();
-		Assertion.assertEquals("Hello World", message);
+		Assertion.assertEquals("ShouldGetHelloWorldMessage", "Hello World", message);
 	}
 	
 	public void test(int testNumber) throws Throwable
